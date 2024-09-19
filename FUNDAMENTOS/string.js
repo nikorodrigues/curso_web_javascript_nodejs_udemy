@@ -10,6 +10,7 @@ console.log(escola.substring(0, 3)) // Retorna a string do índice 0(inicial) at
 
 console.log('Escola'.concat(escola).concat("!")) // Concatenação de strings
 console.log('Escola' + escola + "!") // Concatenação de strings
+console.log(`escola ${escola}!`) // Concatenação de strings
 console.log(escola.replace(3, 'e')) // Substitui o 3 por e
 console.log(escola.replace(/\d/g, 'e')) // Substitui todos os dígitos por e
 console.log(escola.replace(/\w/g, 'e')) // Substitui todas as letras por e
