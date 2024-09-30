@@ -8,4 +8,7 @@ console.log("Show!" * 2) //NaN
 console.log(0.1 + 0.7) //0.7999999999999999
 //ecma-international.org
 //console.log(10.toString())
-console.log((10.345).toFixed(2)) //10.35
+const converterStringNumber = 10.345
+console.log(Number(converterStringNumber.toFixed(2))) //10.35
+console.log(typeof Number((10.345).toFixed(2))) //10.35
+
